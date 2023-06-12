@@ -17,7 +17,7 @@ function handleContextMenuClick(info, tab) {
   // Create the context menu
   chrome.contextMenus.create({
     id: "domainrSearchContextMenu",
-    title: "Domainr Search Menu",
+    title: "Search Domainr",
     contexts: ["all"]
   });
   
