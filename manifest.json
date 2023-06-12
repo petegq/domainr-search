@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Domainr Search",
+    "version": "1.0",
+    "description": "Check domain names on Domainr of selected word",
+    "permissions": ["contextMenus"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "icons": {
+      "128": "icon128.png"
+    }
+  }
+  
